@@ -1,5 +1,9 @@
 ## Unreleased
 
+- BREAKING: Replace `ShopifyAPI.Plugs.Webhook` with `ShopifyAPI.WebhookPlug`.
+  + This version does not use the `Event` struct, and is configured differently.
+    Please see the docs for `ShopifyAPI.WebhookPlug` for more details.
+
 ## 0.12.4
 
 - Fix: Nonce check on install when Shopify does not pass a nonce to the endpoint.
